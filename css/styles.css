@@ -1,0 +1,1392 @@
+/* styles.css */
+
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esto también ayudará a evitar el desbordamiento horizontal no deseado */
+    background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    }
+
+
+    header , main {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+
+
+/* UL */
+
+ul, ol, form, a, p, h1, h2, section, div {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* h2 */
+
+h2 {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------HEADER----------------------------------------------------------- */
+    
+/* NAV */
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el menú */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: solid #000 1px;
+    box-sizing: border-box;
+
+}
+
+
+/* LOGO DE SOULSCLUB */
+
+.iconContainerNav {
+
+    text-align: center;
+    padding: 0%;
+}
+
+.imgNav1 {
+
+    width: 12em;
+
+}
+
+
+/* MENU DE PAGINA EN NAV */
+
+.ulNav {
+
+    width: 100%;
+
+}
+
+nav ul li a {
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    padding-left: 2.5em;
+}
+
+
+nav ul li a:hover {
+color: #808080;
+}    
+
+
+
+nav ul li {
+display: inline-block;
+
+}
+
+
+
+/* ----------- BARRA DE BUSQUEDA, CARRITO Y LOGUEO ----------- */
+
+
+/* CONTAINER DE TODO */
+
+.navDerechoContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 3em;
+    padding-right: ;
+}
+
+/* CONTAINER DE BARRA DE BUSQUEDA */
+
+.inputBarraContainer {
+
+    height: 2.5em;
+    width: 15em;
+    border: 1px solid #000;
+    border-radius: 0.3em;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 0.9em;
+}
+
+/* BOTON DE BARRA DE BUSQUEDA */
+
+.buttonBarra {
+
+    border: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background: none;
+    color: #000;
+}
+
+.buttonBarra:hover {
+
+    cursor: pointer;
+    color: #918c8c;
+    transition: 10em 1s;
+
+}
+
+
+.inputBarra1 {
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+}
+
+/* LUGAR PARA ESCRIVIR EN BARRA DE BUSQUEDA */
+
+.inputBarra2 {
+    
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 1em;
+    outline: none;
+    margin-left: 0.5em;
+
+}
+
+/* SECCION DE LOGUEO */
+
+.iconNavlogin {
+
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+
+.iconNavlogin:hover {
+
+    cursor: pointer;
+    color: #918c8c;
+
+}
+
+/* CARRITO DE COMPRAS */
+
+.iconNavCarrito {
+
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    padding-right: 2em;
+
+}
+
+.iconNavCarrito:hover {
+
+    cursor: pointer;
+    color: #918c8c;
+
+}
+
+
+/*-------------------------------------------------------- MAIN ----------------------------------------------------------- */
+
+
+/*---------------------- INICIO PRIMERA IMAGEN --------------------------- */
+
+
+.carruselContainer {
+    height: 70em;
+    width: 100%;
+}
+
+.carrusel {
+    height: 100%;
+    width: 100%;
+    background: url(https://imgs.search.brave.com/vUNW9hn62ot23hoqwTXLB8j4edLzMFB2cQ1YwVIo-kM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/MDcxMDgtTUxBNTQ5/MzU2Njc4MDNfMDQy/MDIzLUYud2VicA) center / cover fixed rgb(0, 0, 0);
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.inicioH2 {
+    color: #fff;
+    font-size: 4em;
+}
+
+.buttonShop {    
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 15em;
+    height: 4em;
+    font-size: 0.9em;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.buttonShop:hover {
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    color: #000000;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/*-------------------- NEW IN ------------------ */
+
+.newInH2 {
+    padding: 3.2em 0em;
+}
+
+.newincontainer {
+    width: 100%;
+}
+
+.newinproductos{
+    width: 100%;
+    text-align: center;
+}
+
+.newin {
+    display: inline-block;
+    padding: 0px 0px;
+    width: 24%;
+    margin: 0px 1em;
+}
+
+.newinimg {
+    width: 100%;
+}
+
+.newinimg:hover {
+
+    transition: transform 0.4s ease, filter 0.4s ease; /* Transiciones suaves para el tamaño y el filtro */
+    cursor: pointer;
+    transform: scale(0.95); /* Reduce el tamaño de la imagen al 95% */
+    filter: grayscale(10%); /* Aplica un filtro de escala de grises del 80% */
+}
+
+/*---------------------- PRECIOS DE NEW IN ------------------------*/
+
+.precio {
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.nombreprecio {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.nombrepreciolink {
+    color: #000000; /* Color del enlace (azul típico) */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.nombrepreciolink:hover {
+    color: #585454;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ H2 ------------------------- */
+
+h2 {
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* -------------------- BANNER ---------------------- */
+
+#banners {
+    width: 100%;
+    display: flex;
+    margin-top: 9em;
+}
+
+.articleimg {
+    display: inline;
+    width: 50%;
+}
+
+
+
+
+/* ------------------------------------------------------------- FOOTER --------------------------------------------------------------------------- */
+
+
+/* ------------------- FINAL DE PAGINA ------------------ */
+
+/* CONTAINER DE PARTES INTERATIVAS EN EL FOOTER */
+
+.finalcontainer {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+/* PARTE 1 DE REDIRECCIONES A LAS OTRAS PAGINAS */
+
+.navfinal1 {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    gap: 1em;
+}
+
+.navfinal1 a {
+    display: block;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+/* HREF DE PARTE 1 DE REDIRECCIONES A LAS OTRAS PAGINAS */
+
+.navfinalhref {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    padding: 1em 0em;
+}
+
+/* ICONOS DE REDES */
+
+.redesicon {
+    display: flex;
+    text-align: center;
+    margin-right: 3em;
+    padding: 0%;
+    gap: 1em;
+}
+
+.instagram-link {
+    color:#000000;
+    padding-top: 2.3rem;
+    font-size: 1.5rem;
+}
+
+/* PARTE 2 DE REDIRECCIONES A LAS OTRAS PAGINAS */
+
+.navfinal2 {
+    display: flex;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 1em;
+}
+
+/* LOGO FINAL*/
+
+.logofinalcontainer {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.logofinal {
+    padding-top: 1em;
+    width: 18em;
+}
+
+
+/* --------------------- DERECHOS DE IMAGEN ----------------------- */
+
+footer {
+
+    text-align: center;
+    margin-top: 5em;
+
+}
+
+
+.consumidorfooter {
+    text-decoration: none;
+    color: #000;
+}
+
+.consumidorfooter:hover {
+    color: #6d6868;
+    text-decoration: underline;
+}
+
+
+
+.footerContainer {
+    border-top: 1px solid #000;
+    padding: 2em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- PAGINA DE CONTACTOS -------------------------------------------------------------- */
+
+
+
+
+/* --------------------- FORMULARIO ------------------------ */
+
+
+.formContainer {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.datos-input-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.datos-container {
+    width: 50%;
+    border-left: 1px solid #000;
+}
+
+.input-container {
+    width: 50%;
+}
+
+.datos-container, .input-container {
+    padding: 0 4em 0 4em;
+}
+
+.formContainer2 {
+    width: 70%;
+    padding: 2em 3em;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.politicas {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    padding-bottom: 2rem;
+
+}
+
+.inputElementos , .buttonForm {
+    background-color: #d8d5d5;
+    padding: 1.6em 1.1em;
+    margin-bottom: 2em;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #d8d5d5;
+    border-radius: 7px ;
+}
+
+.buttonForm {
+    margin: 2em 1em 0em 1em;
+}
+
+.inputElementos , .inputElementosText {
+    margin: 0.5em 0 1.5em 0;
+    background-color: #fff;
+}
+
+.inputElementos , .inputElementosText , .buttonForm {
+    background-color: #fff;
+}
+
+.inputElementosText {
+
+    padding: 1.6em 1.1em;   
+    border: none;
+    cursor: pointer;
+    border: 1px solid #d8d5d5;
+    border-radius: 7px ;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.inputElementos:hover , .inputElementosText:hover {
+
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+    cursor: text;
+
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonForm:hover {
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.buttonForm {
+
+    width: 50%;
+
+}
+
+.politicasLinks {
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+.politicasLinks:hover {
+    color: #7e7979;
+}
+
+.formH2 {
+    padding: 1em 0em;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+    height: 1%;
+}
+
+.labelClass {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0.4em 0em;
+}
+
+
+/* DATOS DE CONTACTO */
+
+#datos-container {
+    text-align: left;
+}
+
+.title-mensaje-contacto {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 3em;
+}
+
+.contenido-mensaje-contacto {
+    padding-top: 1em;
+}
+
+.title-mensaje-atencion {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 3em;
+}
+
+.contenido-mensaje-atencion {
+    padding-top: 1em;
+}
+
+.div-partes-contacto {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+.div-partes-contacto2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0.50em 1em 0.50em 0em;
+    text-decoration: none;
+}
+
+.a-contacto {
+    text-decoration: none;
+    color: #3d3535;
+}
+
+.a-contacto:hover {
+    text-decoration: underline;
+    color: #3d3535;
+}
+
+/* ICONOS */
+
+#icons-contacto {
+    font-size: 1.5em;
+}
+
+
+
+/* -------------------------------------------------------- PAGINA DE PRODUCTOS ---------------------------------------------------------------- */
+
+
+
+
+
+
+.productosH2 {
+
+    padding: 3.2em 0em;
+
+}
+
+
+.productosPadrePadre {
+    width: 100%;
+}
+
+
+.productosContainer{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.productos {
+    display: inline-block;
+    padding: 0px 0px;
+    width: 24%;
+    margin: 0px 1em;
+}
+
+
+.productosImg {
+    width: 100%;
+}
+
+.productosImg:hover {
+
+    transition: transform 0.4s ease, filter 0.4s ease; /* Transiciones suaves para el tamaño y el filtro */
+    cursor: pointer;
+    transform: scale(0.95); /* Reduce el tamaño de la imagen al 95% */
+    filter: grayscale(10%); /* Aplica un filtro de escala de grises del 80% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- PAGINA DE PREGUNTAS FRECUENTES ---------------------------------------------------------------- */
+
+
+#faqs {
+
+    padding: 5rem 0;
+    width: 50%;
+    height: 40em;
+    margin: auto;
+
+}
+
+.faqsH2 {
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.faqsContainer {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    /**box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);**/
+
+}
+
+
+.faqsPreguntas {
+
+    width: 70%;
+    margin: auto;
+    padding-top: 4em;
+
+}
+
+
+section div ul li {
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 1rem;
+}
+
+/* DETAILS */
+.details-text {
+    font-size: 1.1em;
+}
+
+/* SUMMARY */
+
+.summary-content {
+    font-size: 1.3em;
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+}
+
+details[open] summary {
+    text-decoration: underline;
+    color: #00df25;
+}
+
+
+/* -------------------------------------------------------- PAGINA DE SUCURSALES ---------------------------------------------------------------- */
+
+.h1Sucursales {
+    padding: 1.5em 0 0.8em 0;
+    width: 100%;
+    height: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.iframeH2 {
+    padding: 1em 2em 0 2em ;
+}
+
+.iframeContenido2 {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 2em 1em 2em ;
+}
+
+.iframeParte1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 7px;
+    box-shadow: 1px 1px 20px #000a;
+}
+
+
+.iframeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    padding: 1em 1em 1em 0;
+}
+
+.iframeContainer , h2 {
+    font-size: 1.4em;
+}
+
+#iframeSection {
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+}
+
+
+
+i {
+    padding-right: 0.5em;
+}
+
+
+.redesiconsuc {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+}
+
+.instagram-link-suc {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------- MEDIA QUERIES -------------------------------------------------------------------------- */
+
+
+/* --------------------------------- MAIN --------------------------------------- */
+
+@media (max-width: 1950px) {
+    .newin {
+        display: inline-block;
+        padding: 0px 0px;
+        width: 24%;
+        margin: 0px 0.29em;
+    }
+
+    .container {
+        width: 90%; /* Ajusta el ancho para pantallas medianas */
+    }
+}
+
+
+
+
+
+@media (max-width: 1650px) {
+
+
+        /* --------------------------------------------- PAGINA DE PREGUNTAS FRECUENTES ----------------------------------------------------- */
+
+
+
+        #faqs {
+
+            width: 70%;
+            padding: 1.5rem 0;
+            height: 40em;
+            margin: auto;
+            margin: 2em auto 1em auto;
+        
+        }
+    
+    
+        .faqsH2 {
+    
+            font-size: 1.5em;
+    
+        }
+
+
+
+
+        /* --------------------------------------------------- PAGINA DE PRODUCTOS ----------------------------------------------------------- */
+
+        .productosContainer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Cuatro columnas iguales */
+            width: 100%;
+            height: 100%;
+        }
+    
+
+
+}
+
+
+
+
+
+@media (max-width: 1420px) {
+
+
+    /* --------------------------------------------------- PAGINA DE PRODUCTOS ----------------------------------------------------------- */
+
+    .productosContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cuatro columnas iguales */
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+    /* --------------------------------------------------- PAGINA DE SUCURSALES -------------------------------------------------------------- */
+
+    #iframeSection {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1150px) {
+    .newin {
+        display: inline-block;
+        padding: 0px 0px;
+        width: 48%;
+        margin: 1rem 0.1em;
+    }
+
+
+
+    .container {
+        width: 90%; /* Ajusta el ancho para pantallas medianas */
+    }
+
+
+
+
+    /* --------------------------------------------------- PAGINA DE PRODUCTOS ----------------------------------------------------------- */
+
+
+    .productosContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cuatro columnas iguales */
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* --------------------------------------------------- PAGINA DE SUCURSALES -------------------------------------------------------------- */
+
+    #iframeSection {
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 750px) {
+    .newin {
+        padding: 0px 0px;
+        width: 48%;
+        margin: 1rem 1px;
+    }
+
+    .container {
+        width: 90%; /* Ajusta el ancho para pantallas medianas */
+    }
+
+    .finalcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redesicon {
+
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 0 0 2em 0;
+
+    }
+
+    .logofinal {
+        margin: auto;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- PAGINA DE INCIO ------------------------------------------------------------- */
+
+/* ------------------ TEXTO SOBRE IMAGEN DEL PRINCIPIO -------------------- */
+
+
+    .carruselContainer {
+        height: 40em;
+        width: 100%;
+    }
+
+
+    .inicioH2 {
+        font-size: 2em;
+    }
+
+
+    .buttonContainer {
+        margin-top: 1em;
+    }
+
+
+    .buttonShop {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        width: 9em;
+        height: 3.5em;
+        font-size: 0.9em;
+        border-radius: 4px;
+        border: 1px solid #000;
+        color: #000;
+    }
+
+
+
+
+/* ----------------------------------------- BANNER --------------------------------------------- */
+
+.articleimg {
+
+    width: 100%;
+
+}    
+
+
+
+
+
+
+
+
+    /* ----------------------------------------- PAGINA DE CONTACTO ----------------------------------------------------- */
+
+
+    /* ----------------- FORMULARIO -------------------- */
+
+    .formContainer2 {
+
+        box-shadow: none;
+
+    }
+
+
+    .inputElementos {
+
+        width: 90%;
+        margin: 1em 0em;
+    }
+
+
+
+
+
+
+    /* --------------------------------------------------- PAGINA DE PRODUCTOS ----------------------------------------------------------- */
+
+
+    .productosContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cuatro columnas iguales */
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .productos {
+        width: 100%;
+        padding: 0 0.7em;
+    }
+    
+
+    .productosH2 {
+        font-size: 2em;
+        padding:  2em 0;
+    }
+    
+    
+    .productosImg { 
+        
+        width: 100%;
+    
+    }
+
+
+
+}
+
+
+
+@media (max-width: 850px) {
+
+/* --------------------------------------------------- PAGINA DE SUCURSALES -------------------------------------------------------------- */
+
+#iframeSection {
+    width: 100%;
+    font-size: 15px;
+}
+
+
+.iframeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 1em 0 1em;
+
+}
+
+#iframeSection {
+    font-size: 12px;
+}
+
+.redesiconsuc {
+    padding: 1em 0 1em 0;
+}
+
+.iframeParte1 {
+    width: 100%;
+    display: flex;
+    box-shadow: none;
+    border: none;
+}
+
+.iframeH2 {
+    font-size: 1.6em;
+    padding: 0;
+}
+
+}
+
+
+
+
+
+@media (max-width: 550px) {
+    .newin {
+        display: inline-block;
+        padding: 0px 0px;
+        width: 48%;
+    }
+
+    .container {
+        width: 40%; /* Ajusta el ancho para pantallas medianas */
+    }
+
+
+
+
+/* -------------------------------------------------------- PAGINA DE INCIO ------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ----------------------------------------- PAGINA DE CONTACTO ----------------------------------------------------- */
+
+
+    /* ----------------- FORMULARIO -------------------- */
+
+
+    .formContainer2 {
+
+        box-shadow: none;
+        padding: 0px 0em 0px 0em;
+
+    }
+
+
+    .inputElementos {
+
+        width: 80%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+
+
+    .buttonForm {
+        margin: auto;
+        margin: 1.5em 1em 0em 1em;
+    }
+
+
+
+
+
+    /* --------------------------------------------- PAGINA DE PREGUNTAS FRECUENTES ----------------------------------------------------- */
+
+
+
+    #faqs {
+
+        width: 100%;
+        padding: 1.5rem 0;
+        height: 40em;
+        margin: auto;
+        margin: 2em auto 12em auto
+    
+    }
+
+
+    .faqsPreguntas {
+
+        padding: 1em 0 0 0;
+
+    }
+
+
+    .faqsH2 {
+
+        font-size: 1.5em;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
