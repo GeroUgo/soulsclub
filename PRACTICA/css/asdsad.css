@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el menú */
+    justify-content: space-between; /* Espacia el logo y el menú */
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid #000 1px;
+
+}
+
+nav ul li a {
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+
+nav ul li a:hover {
+color: #808080;
+}    
+
+
+nav ul {
+padding-right: 50px;
+}
+
+nav ul li {
+display: inline-block;
+text-align: center;
+margin: 0px 15px;
+}
+
+
+
+
+
+
+
+
+<a href="https://plataforma-beta.coderhouse.com/cursos/59915/desarrollo-web-online/" target="_blank"> <button> Mas info </button></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newInH2 {
+
+    padding: 3.2em 0em;
+
+}
+
+
+.newincontainer {
+    width: 100%;
+}
+
+
+.newinproductos{
+    width: 100%;
+    text-align: center;
+}
+
+.newin {
+    display: inline-block;
+    padding: 0px 0px;
+    width: 24%;
+    margin: 0px 1em;
+}
+
+
+.newinimg {
+    width: 100%;
+}
+
+.newinimg:hover {
+
+    transition: transform 0.4s ease, filter 0.4s ease; /* Transiciones suaves para el tamaño y el filtro */
+    cursor: pointer;
+    transform: scale(0.95); /* Reduce el tamaño de la imagen al 95% */
+    filter: grayscale(10%); /* Aplica un filtro de escala de grises del 80% */
+}
